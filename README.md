@@ -5,4 +5,6 @@
 用js写的，直接[在线使用](https://kingwsi.github.io/random-gan/)
 
 ## TODO
-点击自动复制
+-视觉优化
+
+-细节优化
