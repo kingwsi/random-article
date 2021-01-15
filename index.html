@@ -185,6 +185,7 @@
     }
 
     /**
+     * 拷贝文本到剪贴板
      * https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
      */
     function copyTextToClipboard(text) {
@@ -210,7 +211,7 @@
             document.getElementById("msg").style.display="";
             setTimeout(() => {
                 document.getElementById("msg").style.display="none";
-            }, 1000);
+            }, 10800);
         } catch (err) {
             console.log('Oops, unable to copy');
         }
